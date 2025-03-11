@@ -2,7 +2,7 @@ body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color:lightslategray; 
+            background-color:cornsilk;
 }
 
 .image-container {
@@ -25,11 +25,11 @@ body {
 }
 
 .text-container h2 {
-    color: #333;
+    color:dimgrey;
     margin-bottom: 10px;
 }
 
 .row {
-    color:grey;
+    color:black;
     line-height: 1.6;
 }
