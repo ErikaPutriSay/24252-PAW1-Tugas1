@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>PT. Logistik Nusantara </title>
+    <!-- internal CSS -->
+     <Style>
+        /*element selector*/
+        Body {
+            background-color:#F6F0F0;
+            font-family: arial;
+        }
+
+        p {
+            color:black;
+        }
+
+        h1, h2, h3{
+            color:green;
+        }
+        /* class selector */
+        .bg-warning {
+            background-color:darkred;
+        }
+
+        .text-sucsess {
+            color:green;
+        }
+         
+        /*id selector */
+        #h5{
+            color:blue;
+            font-family: 'Courier New', Courier, monospace;  
+        }
+     </Style>
 </head>
 <body>
-    
+      <div class="container">
+        <!-- carausel -->
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/Pengiriman.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Logistik.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Mobil.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
 </body>
 </html>
